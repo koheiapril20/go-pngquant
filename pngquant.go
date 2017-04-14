@@ -5,7 +5,7 @@ package pngquant
 #cgo CFLAGS: -I./internal/pngquant/lib
 #cgo CFLAGS: -I./internal/pngquant
 #cgo CFLAGS: -I./internal
-#cgo CFLAGS: -std=gnu99
+#cgo CFLAGS: -std=c11
 #include "internal/pngquant/pngquant.h"
 #include <stdio.h>
 #include <stdlib.h>
